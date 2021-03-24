@@ -9,6 +9,7 @@ public class Functions {
 		Function<String,Integer> converterStringParaInteiro = string -> Integer.valueOf(string);
 		System.out.println(retornarNomeAoContrario.apply("Jair")); // Retornando a String ao contrario
 		System.out.println(converterStringParaInteiro.apply("23452")); // Retornando a String em Inteiro
+		
 
 	}
 
